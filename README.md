@@ -14,17 +14,19 @@ Dream big. Happy building.
 
 ## What's Inside
 
-**[Commands](#commands)** (26 total) - Slash commands that expand into structured workflows
+**[Commands](#commands)** (27 total) - Slash commands that expand into structured workflows
 - **Meta-Prompting**: Separate planning from execution with staged prompts
 - **Todo Management**: Capture context mid-work, resume later with full state
 - **Thinking Models**: Mental frameworks (first principles, inversion, 80/20, etc.)
+- **Deep Analysis**: Systematic debugging methodology with evidence and hypothesis testing
 
-**[Skills](#skills)** (5 total) - Autonomous workflows that research, generate, and self-heal
+**[Skills](#skills)** (6 total) - Autonomous workflows that research, generate, and self-heal
 - **Create Agent Skills**: Build new skills by describing what you want
 - **Create Meta-Prompts**: Generate staged workflow prompts with dependency detection
 - **Create Slash Commands**: Build custom commands with proper structure
 - **Create Subagents**: Build specialized Claude instances for isolated contexts
 - **Create Hooks**: Build event-driven automation
+- **Debug Like Expert**: Systematic debugging with evidence gathering and hypothesis testing
 
 **[Agents](#agents)** (3 total) - Specialized subagents for validation and quality
 - **skill-auditor**: Reviews skills for best practices compliance
@@ -122,6 +124,12 @@ Apply mental frameworks to decisions and problems.
 - [`/consider:opportunity-cost`](./commands/consider/opportunity-cost.md) - Analyze what you give up
 - [`/consider:via-negativa`](./commands/consider/via-negativa.md) - Improve by removing
 
+### Deep Analysis
+
+Systematic debugging with methodical investigation.
+
+- [`/debug`](./commands/debug.md) - Apply expert debugging methodology to investigate issues
+
 ## Agents
 
 Specialized subagents used by the audit commands.
@@ -161,6 +169,12 @@ Commands: `/create-subagent`, `/audit-subagent`
 Build event-driven automation that triggers on tool calls, session events, or prompt submissions. Describe what you want to automate, get working hook configurations.
 
 Commands: `/create-hook`
+
+### [Debug Like Expert](./skills/debug-like-expert/)
+
+Deep analysis debugging mode for complex issues. Activates methodical investigation protocol with evidence gathering, hypothesis testing, and rigorous verification. Use when standard troubleshooting fails or when issues require systematic root cause analysis.
+
+Commands: `/debug`
 
 ---
 
